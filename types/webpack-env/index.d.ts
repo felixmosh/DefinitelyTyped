@@ -190,6 +190,7 @@ declare namespace __WebpackModuleApi {
     */
     interface NodeProcess {
         env?: any;
+        browser?: boolean;
     }
 
     type __Require1 = (id: string) => any;
